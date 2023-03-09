@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:block/end_portal_frame",
+    "overrides":[
+      {"predicate":{"custom_model_data":1},"model":"block/custom/communicator"},
+      {"predicate":{"custom_model_data":2},"model":"block/custom/board"},
+      {"predicate": {"custom_model_data": 10}, "model": "block/custom/board_action/board_action_0"},
+      {"predicate": {"custom_model_data": 11}, "model": "block/custom/board_action/board_action_1"},
+      {"predicate": {"custom_model_data": 12}, "model": "block/custom/board_action/board_action_2"},
+      {"predicate": {"custom_model_data": 13}, "model": "block/custom/board_action/board_action_3"},
+      {"predicate": {"custom_model_data": 14}, "model": "block/custom/board_action/board_action_4"},
+      {"predicate": {"custom_model_data": 15}, "model": "block/custom/board_action/board_action_5"},
+      {"predicate": {"custom_model_data": 16}, "model": "block/custom/board_action/board_action_6"},
+      {"predicate": {"custom_model_data": 17}, "model": "block/custom/board_action/board_action_7"},
+      {"predicate": {"custom_model_data": 18}, "model": "block/custom/board_action/board_action_8"},
+      {"predicate": {"custom_model_data": 19}, "model": "block/custom/board_action/board_action_9"},
+      {"predicate": {"custom_model_data": 20}, "model": "block/custom/board_action/board_action_10"}
+    ]
+}
