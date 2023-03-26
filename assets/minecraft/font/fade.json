@@ -1,0 +1,13 @@
+{
+    "providers":[
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/fade.png",
+            "height": 500,
+            "ascent": 200,
+            "chars":[
+                "a"
+            ]
+        }
+    ]
+}
