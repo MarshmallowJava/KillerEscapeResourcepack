@@ -5,6 +5,8 @@
   },
   "overrides": [
    { "predicate": {"custom_model_data": 1}, "model": "item/custom/dash"},
-   { "predicate": {"custom_model_data": 2}, "model": "item/custom/area_heal"}
+   { "predicate": {"custom_model_data": 2}, "model": "item/custom/area_heal"},
+   { "predicate": {"custom_model_data": 13}, "model": "item/custom/shadow_chain"},
+   { "predicate": {"custom_model_data": 14}, "model": "item/custom/shadow_chain"}
   ]
 }

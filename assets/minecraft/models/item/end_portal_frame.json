@@ -13,6 +13,27 @@
       {"predicate": {"custom_model_data": 17}, "model": "block/custom/board_action/board_action_7"},
       {"predicate": {"custom_model_data": 18}, "model": "block/custom/board_action/board_action_8"},
       {"predicate": {"custom_model_data": 19}, "model": "block/custom/board_action/board_action_9"},
-      {"predicate": {"custom_model_data": 20}, "model": "block/custom/board_action/board_action_10"}
+      {"predicate": {"custom_model_data": 20}, "model": "block/custom/board_action/board_action_10"},
+{"predicate": {"custom_model_data": 40}, "model": "item/custom/box_action/box_action_0"},
+{"predicate": {"custom_model_data": 41}, "model": "item/custom/box_action/box_action_1"},
+{"predicate": {"custom_model_data": 42}, "model": "item/custom/box_action/box_action_2"},
+{"predicate": {"custom_model_data": 43}, "model": "item/custom/box_action/box_action_3"},
+{"predicate": {"custom_model_data": 44}, "model": "item/custom/box_action/box_action_4"},
+{"predicate": {"custom_model_data": 45}, "model": "item/custom/box_action/box_action_5"},
+{"predicate": {"custom_model_data": 46}, "model": "item/custom/box_action/box_action_6"},
+{"predicate": {"custom_model_data": 47}, "model": "item/custom/box_action/box_action_7"},
+{"predicate": {"custom_model_data": 48}, "model": "item/custom/box_action/box_action_8"},
+{"predicate": {"custom_model_data": 49}, "model": "item/custom/box_action/box_action_9"},
+{"predicate": {"custom_model_data": 50}, "model": "item/custom/box_action/box_action_10"},
+{"predicate": {"custom_model_data": 51}, "model": "item/custom/box_action/box_action_11"},
+{"predicate": {"custom_model_data": 52}, "model": "item/custom/box_action/box_action_12"},
+{"predicate": {"custom_model_data": 53}, "model": "item/custom/box_action/box_action_13"},
+{"predicate": {"custom_model_data": 54}, "model": "item/custom/box_action/box_action_14"},
+{"predicate": {"custom_model_data": 55}, "model": "item/custom/box_action/box_action_15"},
+{"predicate": {"custom_model_data": 56}, "model": "item/custom/box_action/box_action_16"},
+{"predicate": {"custom_model_data": 57}, "model": "item/custom/box_action/box_action_17"},
+{"predicate": {"custom_model_data": 58}, "model": "item/custom/box_action/box_action_18"},
+{"predicate": {"custom_model_data": 59}, "model": "item/custom/box_action/box_action_19"},
+{"predicate": {"custom_model_data": 60}, "model": "item/custom/box_action/box_action_20"}
     ]
 }
