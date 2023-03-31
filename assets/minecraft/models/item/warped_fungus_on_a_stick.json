@@ -4,9 +4,13 @@
     "layer0": "minecraft:item/warped_fungus_on_a_stick"
   },
   "overrides": [
-   { "predicate": {"custom_model_data": 1}, "model": "item/custom/dash"},
-   { "predicate": {"custom_model_data": 2}, "model": "item/custom/area_heal"},
-   { "predicate": {"custom_model_data": 13}, "model": "item/music_disc_11"},
-   { "predicate": {"custom_model_data": 14}, "model": "item/custom/shadow_chain"}
+   { "predicate": {"custom_model_data":   1}, "model": "item/custom/dash"},
+   { "predicate": {"custom_model_data":   2}, "model": "item/custom/area_heal"},
+   { "predicate": {"custom_model_data":  13}, "model": "item/music_disc_11"},
+   { "predicate": {"custom_model_data":  14}, "model": "item/custom/shadow_chain"},
+   { "predicate": {"custom_model_data": 100}, "model": "item/custom/dash"},
+   { "predicate": {"custom_model_data": 101}, "model": "item/custom/tech"},
+   { "predicate": {"custom_model_data": 102}, "model": "item/red_dye"},
+   { "predicate": {"custom_model_data": 103}, "model": "item/firework_star"}
   ]
 }

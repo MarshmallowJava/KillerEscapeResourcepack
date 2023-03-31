@@ -39,10 +39,6 @@
       {"predicate": {"custom_model_data":  27}, "model": "item/custom/killer_weapon_action/killer_weapon_action_27"},
       {"predicate": {"custom_model_data":  28}, "model": "item/custom/killer_weapon_action/killer_weapon_action_28"},
       {"predicate": {"custom_model_data":  29}, "model": "item/custom/killer_weapon_action/killer_weapon_action_29"},
-      {"predicate": {"custom_model_data":  40}, "model": "item/custom/killer_weapon_action/killer_weapon_action_30"},
-      {"predicate": {"custom_model_data": 100}, "model": "item/custom/dash"},
-      {"predicate": {"custom_model_data": 101}, "model": "item/custom/dash"},
-      {"predicate": {"custom_model_data": 102}, "model": "item/custom/dash"},
-      {"predicate": {"custom_model_data": 103}, "model": "item/custom/dash"}
+      {"predicate": {"custom_model_data":  40}, "model": "item/custom/killer_weapon_action/killer_weapon_action_30"}
     ]
 }
