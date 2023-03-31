@@ -71,6 +71,9 @@
         { "predicate": { "time": 0.9921875 }, "model": "item/clock" },
         { "predicate": { "custom_model_data": 100 }, "model": "item/nether_star"},
         { "predicate": { "custom_model_data": 101 }, "model": "item/iron_helmet"},
-        { "predicate": { "custom_model_data": 102 }, "model": "item/custom/coop"}
+        { "predicate": { "custom_model_data": 102 }, "model": "item/custom/coop"},
+        { "predicate": { "custom_model_data": 103 }, "model": "item/custom/coop"},
+        { "predicate": { "custom_model_data": 104 }, "model": "item/custom/coop"},
+        { "predicate": { "custom_model_data": 105 }, "model": "item/custom/coop"}
     ]
 }
