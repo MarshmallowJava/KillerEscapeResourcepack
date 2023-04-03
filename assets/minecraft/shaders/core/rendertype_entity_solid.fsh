@@ -19,9 +19,9 @@ in vec4 normal;
 out vec4 fragColor;
 
 void main() {
-
-//    float x = texCoord0.x * 8
-    if(0 <= texCoord0.x && texCoord0.x < 192.0 / 512.0 && (256.0-64.0) / 256.0 <= texCoord0.y && texCoord0.y < 1){
+    //白シュルカーかどうか判定
+    vec2 coord = vec2((texCoord0.x * 256 - 48) / 24, (texCoord0.y * 256 - 232) / 24);
+    if(texture(Sampler0, vec2(0.0)).rgb == vec3(1.0, 0.0, 0.0)){
         discard;
     }else{
         vec4 color = texture(Sampler0, texCoord0) * vertexColor * ColorModulator;
