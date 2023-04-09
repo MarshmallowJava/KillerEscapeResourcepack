@@ -1,0 +1,14 @@
+{
+    "targets": [
+        "swap",
+        "final",
+        "special"
+    ],
+    "passes": [
+        {
+            "name": "blit",
+            "intarget": "special",
+            "outtarget": "final"
+        }
+    ]
+}
