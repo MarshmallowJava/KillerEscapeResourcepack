@@ -6,7 +6,7 @@
     "overrides":[
       {"predicate": {"custom_model_data":   1}, "model":"item/custom/wrench"},
       {"predicate": {"custom_model_data":   2}, "model":"item/custom/dash"},
-      {"predicate": {"custom_model_data":   3}, "model":"item/custom/killer_weapon"},
+      {"predicate": {"custom_model_data":   3}, "model":"item/iron_axe"},
       {"predicate": {"custom_model_data":   4}, "model":"item/custom/rescue_kit"},
       {"predicate": {"custom_model_data":   5}, "model": "item/music_disc_11"},
       {"predicate": {"custom_model_data":  10}, "model": "item/custom/killer_weapon_action/killer_weapon_action_0"},
