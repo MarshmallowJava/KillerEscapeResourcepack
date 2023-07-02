@@ -2,6 +2,7 @@
 
 uniform sampler2D DiffuseSampler;
 uniform sampler2D MarkerSampler;
+uniform float Time;
 
 in vec2 texCoord;
 
@@ -45,9 +46,20 @@ void main(){
 
     int id = get_special_marker(MarkerSampler);
 
-    if(id < texCoord.x * 64 && texCoord.x * 64 < id + 1 && texCoord.y > 0.5){
-        fragColor = vec4(1.0, 0.0, 0.0, 1.0);
+    if(id == 0){
+        fragColor = color;
+    }else if(id == 1){//痛い！！！
+        vec4 white = vec4(1.0, 0.0, 0.0, 1.0);
+        float d = min(1.0, length(texCoord - 0.5) / 2.0 * max(0.5, sin(radians(Time * 180))));
+        fragColor = white * d + color * (1 - d);
     }else{
         fragColor = color;
     }
+
+// 正しく切り替え機能が行われているか確認
+    // if(id < texCoord.x * 64 && texCoord.x * 64 < id + 1 && texCoord.y > 0.5){
+    //     fragColor = vec4(1.0, 0.0, 0.0, 1.0);
+    // }else{
+    //     fragColor = color;
+    // }
 }
