@@ -49,8 +49,12 @@ void main(){
     if(id == 0){
         fragColor = color;
     }else if(id == 1){//痛い！！！
-        vec4 white = vec4(1.0, 0.0, 0.0, 1.0);
-        float d = min(1.0, length(texCoord - 0.5) / 2.0 * max(0.5, sin(radians(Time * 180))));
+        vec4 red = vec4(1.0, 0.0, 0.0, 1.0);
+        float d = min(1.0, length(texCoord - 0.5) / 2.0 * (0.2 * sin(radians(Time * 180)) + 0.5));
+        fragColor = red * d + color * (1 - d);
+    }else if(id == 2){//寒い！！！
+        vec4 white = vec4(0.7, 1.0, 1.0, 1.0);
+        float d = min(1.0, length(texCoord - 0.5) / 2.0 * (0.2 * sin(radians(Time * 180)) + 0.5));
         fragColor = white * d + color * (1 - d);
     }else{
         fragColor = color;
