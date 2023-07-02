@@ -12,20 +12,14 @@
     ],
     "passes": [
         {
-            "name": "read_marker",
+            "name": "blit",
             "intarget": "particles",
-            "auxtargets": [
-                {
-                    "name": "LastSampler",
-                    "id": "special"
-                }
-            ],
-            "outtarget": "temp"
+            "outtarget": "special"
         },
         {
-            "name": "blit",
-            "intarget": "temp",
-            "outtarget": "special"
+            "name": "clear",
+            "intarget": "special",
+            "outtarget": "particles"
         },
         {
             "name": "transparency",
@@ -79,8 +73,19 @@
             ]
         },
         {
+            "name": "special",
+            "intarget": "final",
+            "outtarget": "temp",
+            "auxtargets":[
+                {
+                    "name": "MarkerSampler",
+                    "id": "special"
+                }
+            ]
+        },
+        {
             "name": "blit",
-            "intarget": "special",
+            "intarget": "temp",
             "outtarget": "minecraft:main"
         }
     ]
