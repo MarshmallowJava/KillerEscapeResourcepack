@@ -51,7 +51,7 @@ void main() {
     vertexDistance = fog_distance(ModelViewMat, Position, FogShape);
     vertexColor = Color;
 
-    vec4 texColor = texture(Sampler0, UV0 * 0.999);
+    vec4 texColor = texture(Sampler0, UV0);
     if(texColor.rgb == vec3(1.0, 0.0, 0.0)){
         vec2 pos = corners[id];
         pos.x *= 1.2;
