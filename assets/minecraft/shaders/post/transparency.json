@@ -12,13 +12,18 @@
     ],
     "passes": [
         {
-            "name": "blit",
+            "name": "caution",
             "intarget": "particles",
+            "outtarget": "temp"
+        },
+        {
+            "name": "blit",
+            "intarget": "temp",
             "outtarget": "special"
         },
         {
             "name": "clear",
-            "intarget": "special",
+            "intarget": "temp",
             "outtarget": "particles"
         },
         {
