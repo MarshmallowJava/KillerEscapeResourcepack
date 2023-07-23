@@ -27,19 +27,19 @@ void main() {
     vertexColor = Color * texelFetch(Sampler2, UV2 / 16, 0);
     texCoord0 = UV0;
 
-    vec4 cast = texture(Sampler0, UV0);
+    vec4 special = texture(Sampler0, UV0);
 
     //差分
     vec3 delta = vec3(0.0);
-    if(cast.rgb == vec3(1.0, 0.0, 0.0)){
+    if(special.rgb == vec3(1.0, 0.0, 0.0)){
         delta.x = sin(radians(int(-fract(GameTime * 1200)*360*10) + Position.x + Position.y));
         delta.y = sin(radians(int(-fract(GameTime * 1200)*360*5) + Position.x + Position.y));
     }
-    if(cast.rgb == vec3(0.0, 1.0, 0.0)){
+    if(special.rgb == vec3(0.0, 1.0, 0.0)){
         delta.x = 1.5 * cos(radians(-fract(GameTime * 1200)*360 + Position.x + Position.y));
         delta.y = 1.5 * sin(radians(-fract(GameTime * 1200)*360 + Position.x + Position.y));
     }
-    if(cast.rgb == vec3(0.0, 0.0, 1.0)){
+    if(special.rgb == vec3(0.0, 0.0, 1.0)){
         delta.x = 3*cos(radians(-fract(GameTime * 1200)*360 + Position.y*10));
     }
 

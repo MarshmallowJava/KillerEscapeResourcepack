@@ -23,10 +23,10 @@ void main() {
     if (color.a < 0.1) {
         discard;
     }else{
-        vec3 cast = color.rgb;
+        vec3 special = color.rgb;
 
         color.rgb = vec3(1.0);
-        if(cast == vec3(1.0, 0.0, 0.0)){
+        if(special == vec3(1.0, 0.0, 0.0)){
         }
     }
     color *= vertex * ColorModulator;
