@@ -9,6 +9,7 @@
       {"predicate": {"custom_model_data":   3}, "model":"item/iron_axe"},
       {"predicate": {"custom_model_data":   4}, "model":"item/custom/rescue_kit"},
       {"predicate": {"custom_model_data":   5}, "model": "item/music_disc_11"},
+      {"predicate": {"custom_model_data":   6}, "model": "item/totem_of_undying"},
       {"predicate": {"custom_model_data":  10}, "model": "item/custom/killer_weapon_action/killer_weapon_action_0"},
       {"predicate": {"custom_model_data":  11}, "model": "item/custom/killer_weapon_action/killer_weapon_action_1"},
       {"predicate": {"custom_model_data":  12}, "model": "item/custom/killer_weapon_action/killer_weapon_action_2"},
